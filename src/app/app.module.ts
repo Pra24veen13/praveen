@@ -17,6 +17,7 @@ import { C3Component } from './c3/c3.component';
 import { NsService } from './ns.service';
 import { RegisterComponent } from './register/register.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { C4Component } from './c4/c4.component';
 
 
 @NgModule({
@@ -36,6 +37,7 @@ import { DashboardComponent } from './dashboard/dashboard.component';
     C3Component,
     RegisterComponent,
     DashboardComponent,
+    C4Component,
    
   ],
   imports: [
